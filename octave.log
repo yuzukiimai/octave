@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.2-190908-2.6 (utf8.euc) (TeX Live 2019/Debian) (preloaded format=platex 2022.12.6)  24 MAY 2023 00:58
+This is e-pTeX, Version 3.14159265-p3.8.2-190908-2.6 (utf8.euc) (TeX Live 2019/Debian) (preloaded format=platex 2022.12.6)  24 MAY 2023 01:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -228,7 +228,6 @@ File: ./fig/q1000_r1.png Graphic file (type bmp)
 <./fig/q1000_r1.png>
 File: ./fig/q10000_r1.png Graphic file (type bmp)
 <./fig/q10000_r1.png>
- [3]
 File: ./fig/q1_r100.png Graphic file (type bmp)
 <./fig/q1_r100.png>
 File: ./fig/q1_r1000.png Graphic file (type bmp)
@@ -237,17 +236,49 @@ File: ./fig/q1_r10000.png Graphic file (type bmp)
 <./fig/q1_r10000.png>
 
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[3]
+File: ./fig/q100_r100.png Graphic file (type bmp)
+<./fig/q100_r100.png>
+File: ./fig/q1000_r1000.png Graphic file (type bmp)
+<./fig/q1000_r1000.png>
+File: ./fig/q10000_r10000.png Graphic file (type bmp)
+<./fig/q10000_r10000.png>
+File: ./fig/q1000_r50.png Graphic file (type bmp)
+<./fig/q1000_r50.png>
+File: ./fig/q5000_r50.png Graphic file (type bmp)
+<./fig/q5000_r50.png>
+File: ./fig/q10000_r50.png Graphic file (type bmp)
+<./fig/q10000_r50.png>
+ [4]
+File: ./fig/q50000_r50.png Graphic file (type bmp)
+<./fig/q50000_r50.png>
+File: ./fig/q100000_r50.png Graphic file (type bmp)
+<./fig/q100000_r50.png>
+File: ./fig/q1000000_r50.png Graphic file (type bmp)
+<./fig/q1000000_r50.png>
+File: fig/q1000_r1.png Graphic file (type bmp)
+<fig/q1000_r1.png>
+File: fig/q50000_r50.png Graphic file (type bmp)
+<fig/q50000_r50.png>
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 228--238
+[][] [] 
+ []
+
+
 Package caption Warning: Unused \captionsetup[table] on input line 5.
 See the caption package documentation for explanation.
 
-[4] (./octave.aux) ) 
+[5] (./octave.aux) ) 
 Here is how much of TeX's memory you used:
- 2719 strings out of 481768
- 44310 string characters out of 5933620
- 293480 words of memory out of 5000000
- 18149 multiletter control sequences out of 15000+600000
+ 2761 strings out of 481768
+ 45245 string characters out of 5933620
+ 294480 words of memory out of 5000000
+ 18182 multiletter control sequences out of 15000+600000
  542979 words of font info for 74 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 48i,7n,46p,303b,565s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,7n,46p,303b,571s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on octave.dvi (4 pages, 6628 bytes).
+Output written on octave.dvi (5 pages, 9816 bytes).

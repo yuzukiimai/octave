@@ -1,11 +1,11 @@
 # Fdb version 3
-["dvipdf"] 1684857508 "out/octave.dvi" "out/octave.pdf" "out/octave" 1684857509
-  "out/octave.dvi" 1684857508 6628 1fbc160a5fc1667438a867283aa070ec "latex"
+["dvipdf"] 1684860390 "out/octave.dvi" "out/octave.pdf" "out/octave" 1684860390
+  "out/octave.dvi" 1684860390 9816 7e22db4b36f966bd7e8d8468af2f7737 "latex"
   (generated)
   "out/octave.pdf"
-["latex"] 1684857507 "/home/yuzuki/octave/octave.tex" "out/octave.dvi" "octave" 1684857509
+["latex"] 1684860388 "/home/yuzuki/octave/octave.tex" "out/octave.dvi" "octave" 1684860390
   "/etc/texmf/web2c/texmf.cnf" 1670335848 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/yuzuki/octave/octave.tex" 1684857507 6173 8efe37cc8324fc9d083b7a5e6de51f89 ""
+  "/home/yuzuki/octave/octave.tex" 1684860388 9417 2d7c810cd9871e182f9ecfb1e73418fb ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm" 1463434352 468 53f854284f6afa6c36aaa2d1090ecc12 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm" 1463434352 468 53f854284f6afa6c36aaa2d1090ecc12 ""
@@ -46,15 +46,24 @@
   "fig/ato_r.png" 1684850886 10494 abb65e6e60adbdf2450249880bfd0a89 ""
   "fig/moto_c.png" 1684850596 15057 c56198db0dcd8b64982cd58892d0aea7 ""
   "fig/moto_r.png" 1684850570 10627 1159265f7236fd32c01f72c7fcfec17f ""
+  "fig/q1000000_r50.png" 1684859252 7593 ddf38c7eb4500cc8917156dc7e7dc16f ""
+  "fig/q100000_r50.png" 1684859197 7911 8208cf0adcf55863f00a6701ef22c2f9 ""
   "fig/q10000_r1.png" 1684854902 8027 9af2f995179ecf9114d13ffe1de76d1c ""
+  "fig/q10000_r10000.png" 1684854990 10405 4cc9e221b7cc6fdf8b88ec2bba058e60 ""
+  "fig/q10000_r50.png" 1684858485 9919 7e6e40d9e9a446bf3a90c57cee56c425 ""
   "fig/q1000_r1.png" 1684855780 9437 cd35971061f7444941f41a9f23b1079d ""
+  "fig/q1000_r1000.png" 1684857855 10375 ac57343da90e1ebd7a6f31bdb9d352aa ""
+  "fig/q1000_r50.png" 1684858374 10749 1b1f5ee51666b3f89e9b44b12546f718 ""
   "fig/q100_r1.png" 1684854720 10362 46dc6aa05445fae0db091929b99b7b17 ""
+  "fig/q100_r100.png" 1684854785 10407 58852f1fca86a256b52a1ea983009ede ""
   "fig/q1_r100.png" 1684854855 10632 35272744a0579c984ca617a6812ced48 ""
   "fig/q1_r1000.png" 1684856952 10562 ca571802e4aaac99a5ef1a3c591b341f ""
   "fig/q1_r10000.png" 1684855049 10586 cc65238039417bd8ccf95cd2a91ff5c3 ""
-  "octave.tex" 1684857507 6173 8efe37cc8324fc9d083b7a5e6de51f89 ""
-  "out/octave.aux" 1684857508 1313 4463909182a32312cea79444e064f850 "latex"
+  "fig/q50000_r50.png" 1684859153 9434 4d78ff789ad9ba9c894ee8d617509b55 ""
+  "fig/q5000_r50.png" 1684858434 10266 d563f748fc8d2bc86cfd4a015009abc9 ""
+  "octave.tex" 1684860388 9417 2d7c810cd9871e182f9ecfb1e73418fb ""
+  "out/octave.aux" 1684860390 2628 ab382e78a9ab0643264fce5acfd01863 "latex"
   (generated)
-  "out/octave.dvi"
   "out/octave.log"
+  "out/octave.dvi"
   "out/octave.aux"
