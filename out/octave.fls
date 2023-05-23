@@ -84,4 +84,18 @@ INPUT fig/moto_c.png
 INPUT extractbb -B cropbox -O fig/moto_c.png
 INPUT fig/moto_r.png
 INPUT extractbb -B cropbox -O fig/moto_r.png
+INPUT ./fig/q100_r1.png
+INPUT extractbb -B cropbox -O ./fig/q100_r1.png
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm
+INPUT ./fig/q1000_r1.png
+INPUT extractbb -B cropbox -O ./fig/q1000_r1.png
+INPUT ./fig/q10000_r1.png
+INPUT extractbb -B cropbox -O ./fig/q10000_r1.png
+INPUT ./fig/q1_r100.png
+INPUT extractbb -B cropbox -O ./fig/q1_r100.png
+INPUT ./fig/q1_r1000.png
+INPUT extractbb -B cropbox -O ./fig/q1_r1000.png
+INPUT ./fig/q1_r10000.png
+INPUT extractbb -B cropbox -O ./fig/q1_r10000.png
 INPUT out/octave.aux

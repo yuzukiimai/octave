@@ -91,17 +91,64 @@ help lqr を参照の元, コードを作成し, 実行した結果は以下の�
 また, Q, R をどのような値にするとより早く収束するか.\\
 \hspace*{1zw}いくつか Q, R の組に対する応答を示しながら解説せよ.\\
 
+\vspace*{4mm}\subsection*{解答}
+まずは, R の値を1に固定し, Q の (1, 1)成分の値を可変にして, どのような傾向があるかを調査する.
+
+\begin{figure}[h!]
+  \centering
+  \begin{minipage}{0.325\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{./fig/q100_r1.png}
+    \caption{Q = 100, R = 1}
+  \end{minipage}
+  \hfill
+  \begin{minipage}{0.325\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{./fig/q1000_r1.png}
+    \caption{Q = 1000, R = 1}
+  \end{minipage}
+  \hfill
+  \begin{minipage}{0.325\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{./fig/q10000_r1.png}
+    \caption{Q = 10000, R = 1}
+  \end{minipage}
+\end{figure}
+
+これらの結果から Q の値（第一成分）を大きくすると収束が早まることがわかる.\\
+\hspace*{1zw}しかし, 図5 と 図6の結果の比較より, 値が大きすぎても逆に収束が遅くなってしまうことがわかる.\\
+\hspace*{1zw}すなわち, どこかの値で収束する限界が存在し, それ以降の値は逆効果になると考えられる.\\
+
+次に Q の値を固定し, Rの値を可変にして, 同様に傾向を調査する.
+
+\begin{figure}[h!]
+  \centering
+  \begin{minipage}{0.325\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{./fig/q1_r100.png}
+    \caption{Q = 1, R = 100}
+  \end{minipage}
+  \hfill
+  \begin{minipage}{0.325\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{./fig/q1_r1000.png}
+    \caption{Q = 1, R = 1000}
+  \end{minipage}
+  \hfill
+  \begin{minipage}{0.325\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{./fig/q1_r10000.png}
+    \caption{Q = 1, R = 10000}
+  \end{minipage}
+\end{figure}
+
+これらの結果から Q の値を固定し, R の値のみを可変にしても変化は起こらないことがわかる.\\
+\hspace*{1zw}このことから, R の値は, Q の値と組み合わせて両者を可変にすることで効力を発揮すると予想できる.\\
+
+\vspace*{10mm}
+よって, 今度は Q と R の値の両者を可変にして, どのような値にすると収束が早まるかを調査する.
 
 
-
-
-
-
-% \begin{figure}[h!]
-%   \centering
-%    \includegraphics[height=85mm]{./figs/tukuba.png}
-%    \caption{つくばチャレンジでロボットが自律移動する様子}
-% \end{figure}
 
 
 
