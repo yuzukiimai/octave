@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.2-190908-2.6 (utf8.euc) (TeX Live 2019/Debian) (preloaded format=platex 2022.12.6)  23 MAY 2023 23:31
+This is e-pTeX, Version 3.14159265-p3.8.2-190908-2.6 (utf8.euc) (TeX Live 2019/Debian) (preloaded format=platex 2022.12.6)  24 MAY 2023 00:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -199,18 +199,33 @@ Overfull \hbox (2.2222pt too wide) in paragraph at lines 49--59
 [][] [] 
  []
 
+File: fig/moto_c.png Graphic file (type bmp)
+<fig/moto_c.png>
+File: fig/moto_r.png Graphic file (type bmp)
+<fig/moto_r.png>
+
+Overfull \hbox (5.19537pt too wide) in paragraph at lines 76--77
+ [][] 
+ []
+
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 69--79
+[][] [] 
+ []
+
+[2]
 
 Package caption Warning: Unused \captionsetup[table] on input line 5.
 See the caption package documentation for explanation.
 
-[2] (./octave.aux) ) 
+[3] (./octave.aux) ) 
 Here is how much of TeX's memory you used:
- 2683 strings out of 481768
- 43639 string characters out of 5933620
+ 2691 strings out of 481768
+ 43769 string characters out of 5933620
  293480 words of memory out of 5000000
- 18123 multiletter control sequences out of 15000+600000
+ 18129 multiletter control sequences out of 15000+600000
  542795 words of font info for 72 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 48i,7n,46p,303b,574s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,7n,46p,303b,565s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on octave.dvi (2 pages, 3196 bytes).
+Output written on octave.dvi (3 pages, 4528 bytes).

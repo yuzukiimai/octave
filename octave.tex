@@ -18,7 +18,7 @@ A = [0 1; -5 -6], \hspace*{0.5zw}B = [0; 1] のシステムに対して, 最適�
 \hspace*{1zw}ください.\vspace*{2mm}\\
 \hspace*{1zw}help lqr\\
 
-\vspace*{4mm}\subsection*{回答}
+\vspace*{4mm}\subsection*{解答}
 help lqr を参照の元, コードを作成し, 実行した結果は以下の図1のようになった.\\
 \hspace*{1zw}講義内での手計算によって求めた結果と同様になったため, 正しく最適レギュレータを設計できたといえる.\\
 
@@ -41,7 +41,7 @@ help lqr を参照の元, コードを作成し, 実行した結果は以下の�
 \vspace*{1mm}\section*{問2}
 初期値 x0 = [1; 0] として, 時間応答のグラフも求めてください.\\
 
-\vspace*{4mm}\subsection*{回答}
+\vspace*{4mm}\subsection*{解答}
 上記で求めた, 最適レギュレータの状態フィードバック係数ベクトルを適用した時間応答のグラフは以下の\\
 \hspace*{1zw}図2のようになった.\\
 
@@ -54,16 +54,44 @@ help lqr を参照の元, コードを作成し, 実行した結果は以下の�
   \begin{minipage}[t]{0.5\linewidth}
     \centering
     \includegraphics[keepaspectratio, scale=0.48]{fig/ato_r.png}
-    \subcaption{状態フィードバック係数ベクトル適用後の\\時間応答のグラフ(コード実行結果)}
+    \subcaption{時間応答のグラフ(コード実行結果)}
   \end{minipage}\vspace*{2mm}
-  \caption{最適レギュレータの設計及び状態フィードバック係数ベクトルを求めるコード}
+  \caption{状態フィードバック係数ベクトル適用後の時間応答}
 \end{figure}
 
 
 
+\vspace*{2mm}
+ここで, 最適レギュレータの設計により求めた, 状態フィードバック係数ベクトルを
+適用する前(演習4)の\hspace*{1zw}時間応答のグラフを以下の図3に示す.\\
+
+\begin{figure}[htbp]
+  \begin{minipage}[t]{0.5\linewidth}
+    \centering
+    \includegraphics[keepaspectratio, scale=0.605]{fig/moto_c.png}
+    \subcaption{講義内の演習4で作成したコード}
+  \end{minipage}
+  \begin{minipage}[t]{0.5\linewidth}
+    \centering
+    \includegraphics[keepaspectratio, scale=0.48]{fig/moto_r.png}
+    \subcaption{時間応答のグラフ(コード実行結果)}
+  \end{minipage}\vspace*{2mm}
+  \caption{状態フィードバック係数ベクトル適用前の時間応答}
+\end{figure}
+
+
+
+図2と図3の時間応答のグラフを比較すると, 最適レギュレータの設計によって求めた状態フィードバック
+\hspace*{1zw}係数ベクトルの適用後と適用前でグラフの概形が同じである.\\
+
+このことから, 単純に状態フィードバック係数ベクトルを適用するだけでは, 望むような応答を得ることは\hspace*{1zw}できず, 
+システムによって適切なQ と R の値を設定することが必要であるとわかる.
+
 \section*{問3}
 また, Q, R をどのような値にするとより早く収束するか.\\
-\hspace*{1zw}いくつか Q, R の組に対する応答を示しながら解説せよ.
+\hspace*{1zw}いくつか Q, R の組に対する応答を示しながら解説せよ.\\
+
+
 
 
 

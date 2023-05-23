@@ -1,11 +1,11 @@
 # Fdb version 3
-["dvipdf"] 1684852269 "out/octave.dvi" "out/octave.pdf" "out/octave" 1684852269
-  "out/octave.dvi" 1684852269 3196 abfcc2a632077af7080338eaed13470e "latex"
+["dvipdf"] 1684854566 "out/octave.dvi" "out/octave.pdf" "out/octave" 1684854566
+  "out/octave.dvi" 1684854566 4528 e06d3b4f005d63e2fd928c78544302c1 "latex"
   (generated)
   "out/octave.pdf"
-["latex"] 1684852268 "/home/yuzuki/octave/octave.tex" "out/octave.dvi" "octave" 1684852269
+["latex"] 1684854565 "/home/yuzuki/octave/octave.tex" "out/octave.dvi" "octave" 1684854566
   "/etc/texmf/web2c/texmf.cnf" 1670335848 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/yuzuki/octave/octave.tex" 1684852268 3047 fcd36e58f5bfa79a50c512a08c152f62 ""
+  "/home/yuzuki/octave/octave.tex" 1684854565 4213 ebbb7d82da4f8394f53b0cf32abc616a ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm" 1463434352 468 53f854284f6afa6c36aaa2d1090ecc12 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm" 1463434352 468 53f854284f6afa6c36aaa2d1090ecc12 ""
@@ -44,9 +44,11 @@
   "fig/2.png" 1684849224 11321 72f5b1a96e1bd24c27ae55d9381b8c06 ""
   "fig/ato_c.png" 1684850949 19649 d308144d0a6ff04302eec6c84f4a5c64 ""
   "fig/ato_r.png" 1684850886 10494 abb65e6e60adbdf2450249880bfd0a89 ""
-  "octave.tex" 1684852268 3047 fcd36e58f5bfa79a50c512a08c152f62 ""
-  "out/octave.aux" 1684852269 434 28a05aa28ba9a2d42b64fd9a3d739db4 "latex"
+  "fig/moto_c.png" 1684850596 15057 c56198db0dcd8b64982cd58892d0aea7 ""
+  "fig/moto_r.png" 1684850570 10627 1159265f7236fd32c01f72c7fcfec17f ""
+  "octave.tex" 1684854565 4213 ebbb7d82da4f8394f53b0cf32abc616a ""
+  "out/octave.aux" 1684854566 575 80cec4b85313c921a9a298840278169b "latex"
   (generated)
+  "out/octave.log"
   "out/octave.aux"
   "out/octave.dvi"
-  "out/octave.log"

@@ -80,4 +80,8 @@ INPUT fig/ato_c.png
 INPUT extractbb -B cropbox -O fig/ato_c.png
 INPUT fig/ato_r.png
 INPUT extractbb -B cropbox -O fig/ato_r.png
+INPUT fig/moto_c.png
+INPUT extractbb -B cropbox -O fig/moto_c.png
+INPUT fig/moto_r.png
+INPUT extractbb -B cropbox -O fig/moto_r.png
 INPUT out/octave.aux
