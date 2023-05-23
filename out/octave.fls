@@ -76,4 +76,8 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT fig/1.png
 INPUT extractbb -B cropbox -O fig/1.png
 OUTPUT out/octave.dvi
+INPUT fig/ato_c.png
+INPUT extractbb -B cropbox -O fig/ato_c.png
+INPUT fig/ato_r.png
+INPUT extractbb -B cropbox -O fig/ato_r.png
 INPUT out/octave.aux
